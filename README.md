@@ -1,7 +1,7 @@
 # inbred_maize_snps
 The contents of this repository document the genomic loci associated with phenotypic traits associated with maize stalk lodging resistance.  Mark snps were parsed from https://pubmed.ncbi.nlm.nih.gov/36705476/.
 
-**snp_markers_with_p_value_below_0.001.csv** : csv with all marker snps associated with any of 8 phenotypic traits associated with stalk lodging resistance.
+**snp_markers_with_p_value_below_0.001.zip** : csv with all marker snps associated with any of 8 phenotypic traits associated with stalk lodging resistance.
 * Source - the phenotype examined
 * SNP - the name of a SNP (chromosome_position)
 * CHROM - the chromosome on which the SNP was found
@@ -13,7 +13,7 @@ The contents of this repository document the genomic loci associated with phenot
 * pvalue - the lowest p-value returned for a particular SNP
 * RMIP - the RMIP score, a value between 0-1, noting the ratio out of 100 that a SNP was found to be significantly assocaited with a phenotype noted in Source
 
-**paneffect_genes_pvalues.csv** : csv with 8802 consensus genes that were identified within 3 genes of a significant snp in the current study and within 1kb of either of the GWAS atlas' examined.
+**paneffect_genes_pvalues.zip** : csv with 8802 consensus genes that were identified within 3 genes of a significant snp in the current study and within 1kb of either of the GWAS atlas' examined.
 * Gene ID: The gene id of the linked gene
 * Source: The phenotype examined
 * SNP: a significantly identified marker SNP
